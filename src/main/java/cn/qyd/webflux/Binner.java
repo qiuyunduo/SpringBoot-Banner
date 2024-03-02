@@ -10,7 +10,7 @@ public class Binner {
 
         //Class.getResource("文件名")查找带有给定名称的资源。直接写文件名是在同一级目录下查找
         //如果文件在上一层目录的话要在文件名称前/
-        File test1 = new File(Binner.class.getResource("banner0.txt").getFile());
+        File test1 = new File(Binner.class.getResource("/banner5.txt").getFile());
         readTxt(test1);
 
     }
